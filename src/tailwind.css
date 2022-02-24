@@ -9,6 +9,10 @@
   h1 {
     font-family: "Londrina Outline", cursive;
   }
+  h2 {
+    font-family: "Overpass", sans-serif;
+    text: -4xl;
+  }
 }
 
 @layer components {
@@ -20,8 +24,8 @@
     background-image: url("img/graphicel_omos.png");
   }
 
-  .herobackground_FAQ {
-    background-image: url("/img/graphicel_FAQ.png");
+  .herobackground_faq {
+    background-image: url("img/graphicel_faq.png");
   }
 
   /*Animations*/
