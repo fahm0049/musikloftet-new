@@ -15,6 +15,13 @@
   .herobackground {
     background-image: url("img/graphicel_landingpage1.png");
   }
+
+  .herobackground_omos {
+    background-image: url("img/graphicel_omos.png");
+  }
+
+  /*Animations*/
+
   .tracking-in-expand {
     -webkit-animation: tracking-in-expand 0.7s
       cubic-bezier(0.215, 0.61, 0.355, 1) both;
