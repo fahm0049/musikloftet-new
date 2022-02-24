@@ -22,3 +22,9 @@
     font-family: "Londrina Outline", cursive;
   }
 }
+
+@layer components {
+  .herobackground {
+    background-image: url("img/graphicel.png");
+  }
+}
