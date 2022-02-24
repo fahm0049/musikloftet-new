@@ -20,6 +20,10 @@
     background-image: url("img/graphicel_omos.png");
   }
 
+  .herobackground_lokaler {
+    background-image: url("img/graphicel_lokaler.png");
+  }
+
   /*Animations*/
 
   .tracking-in-expand {
