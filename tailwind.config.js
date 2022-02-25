@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      cursor: {
+        'mincursor': 'url(img/mincursor.png), pointer',
+      }
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
   plugins: [require("daisyui")],
