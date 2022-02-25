@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       cursor: {
-        'mincursor': 'url(img/mincursor.png), pointer',
-      }
+        mincursor: "url(img/mincursor.png), pointer",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
