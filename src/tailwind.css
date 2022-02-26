@@ -35,6 +35,13 @@
   .herobackground_kontaktos {
     background-image: url("img/graphicel_kontaktos.png");
 
+    /* Media Queries */
+
+    @media (min-width: 640px) {
+      .text-9xl\:text-lg {
+        font-size: 20px;
+      }
+    }
     /*Animations*/
 
     .tracking-in-expand {
